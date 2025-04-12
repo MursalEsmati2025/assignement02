@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Recipe</title>
+</head>
+<body>
+     <!-- Header section and Navigation section STARTS! -->
+     <header>
+        <a href="index.html">Home</a>
+        <span>|</span>
+        <a href="add-recipe.html">Add Recipe</a> 
+        <span>|</span>
+        <a href="recipe-list.html">Recipe List</a> 
+    </header>
+    <br>
+    <form>
+        <label for="Rsearch">Search For Recipes:</label>
+        <input type="search" id="Rsearch" name="gsearch">
+     </form>
+    <br>
+    <hr size="2" color="orange">
+    <!-- Header section and Navigation section END -->
+    
+    <!-- Form Section SARTS! -->
+    <header>
+        <h1>Add Recipe</h1>
+     </header>
+
+    <h2>Fill the Below Form</h2>
+    <form>
+        <label for="Rname">Recipe Name:</label><br>
+        <input type="text" name="Rname" placeholder= "favorite food" required>
+
+        <br><br>
+
+        <label for="ingre">List Your Ingredients:</label><br>
+        <input type="text" name="ingre" id="ingre" required>
+
+        <br><br>
+
+        <label for="coki">Cooking Instructions:</label><br>
+        <input type="text" name="coki" id="coki" required>
+
+        <br><br>
+
+        <label for="img">Add Image:</label><br>
+        <input type="url" name="img" id="img" required>
+        <br><br>
+        <input type="file" name="img" id="img">
+
+        <br><br>
+
+        <label for="cat">Select Category:</label><br><br>
+        <select required>
+            <option value="Appetizers">Appetizers</option>
+            <option value="MainMeal">Main Meal</option>
+            <option value="Desserts">Desserts</option>
+            <option value="Drinks">Drinks</option>
+        </select>
+
+        <br><br>
+
+        <input type="Submit" value="Add Recipe" name="Add Recipe" id="S">
+
+    </form>
+     <!-- Form Section ENDS! -->
+</body>
+</html>
